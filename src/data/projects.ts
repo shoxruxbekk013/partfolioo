@@ -1,3 +1,4 @@
+
 import { Project } from '../types';
 
 export const projectsData: Project[] = [
@@ -80,6 +81,31 @@ export const projectsData: Project[] = [
       { label: 'Layout', value: 'Mobile-First' },
       { label: 'Catalog Engine', value: 'Instant Filter' },
       { label: 'Design System', value: 'Modern Automotive' }
+    ]
+  },
+  {
+    id: 'nexus-messenger',
+    number: '04',
+    name: 'Nexus Messenger',
+    category: 'Messaging Application',
+    tagline: 'Modern web-based messaging experience',
+    description: 'A messenger application with a modern interface, accessible directly from the web.',
+    longDescription:
+      'Nexus Messenger is a web-based messaging project showcased in the portfolio. Open the live application to explore its available features.',
+    keyFeatures: [
+      'Web-based messaging application',
+      'Modern application interface',
+      'Accessible through a live website'
+    ],
+    techStack: ['Web Application', 'Base44'],
+    liveUrl: 'https://nexus-messenger-1606fe8f.base44.app',
+    previewType: 'automarket',
+    accentColor: '#00E5FF',
+    gradient: 'from-[#00E5FF] via-[#3867FF] to-[#8B5CF6]',
+    metrics: [
+      { label: 'Platform', value: 'Web' },
+      { label: 'Deployment', value: 'Base44' },
+      { label: 'Access', value: 'Live Demo' }
     ]
   }
 ];
