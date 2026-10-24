@@ -19,7 +19,7 @@ export const projectsData: Project[] = [
       'Zero-latency collision detection and high score persistence'
     ],
     techStack: ['JavaScript (ES6+)', 'HTML5 Canvas', 'CSS3 Animations', 'Web Audio API', 'Netlify'],
-    liveUrl: 'https://gamee-2026.netlify.app/mashina',
+    liveUrl: 'https://gamee-2026.netlify.app',
     previewType: 'game',
     accentColor: '#FF3CAC',
     gradient: 'from-[#FF3CAC] via-[#8B5CF6] to-[#00E5FF]',
